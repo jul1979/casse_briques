@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Satisfy', cursive, sans-serif;
+	font-size: 2em;
+	background-color: #4169e1;
+	height: 250px;
+	color: blanchedalmond;
+	text-transform: uppercase;
+	align-items: center;
+	justify-content: space-evenly;
+
+	padding-bottom: 2px;
+}
+
+body {
+	position: relative;
+	height: 100vh;
+}
+p {
+	padding-top: 2px;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-transform: capitalize;
+}
+
+footer {
+	font-family: 'Pacifico', cursive, sans-serif;
+	position: absolute;
+	bottom: 0;
+}

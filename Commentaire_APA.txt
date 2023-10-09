@@ -1,0 +1,22 @@
+Itération 1
+-----------
+
+Mclasses.js: c'est bien d'avoir créer une méthode pour avoir le bord droit de la raquette, mais autant l'utiliser dans la méthode MoveTo ;)
+
+3,75/4
+
+Itération 3
+------------
+
+j'ai oublié les commentaires pour l'itération 2 ? Désolé !
+
+Des commentaires pour les constantes auraient été bien :)
+
+Pourquoi ne pas utiliser add dans AddAll
+
+Les briques ne se suppriment pas, est-ce normal ?
+IL y a encore quelques bugs par ci par la mais on voit que tu as bien travaillé ;)
+
+4,5/10
+
+TOT 13/20

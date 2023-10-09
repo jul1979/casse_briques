@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css_CB/styleHome_CB.css">
+  <script src="../js_CB/model/Constants.js"></script>
+  <script src="../js_CB/model/Dimension.js"></script>
+  <script src="../js_CB/model/Movement.js"></script>
+  <script src="../js_CB/model/Position.js"></script>
+  <script src="../js_CB/model/Sprite.js"></script>
+  <script src="../js_CB/model/Paddle.js"></script>
+  <script src="../js_CB/model/Ball.js"></script>
+  <script src="../js_CB/model/Brick.js"></script>
+  <script src="../js_CB/model/Player.js"></script>
+
+  <script src="../js_CB/ctrl/BallCtrl.js"></script>
+  <script src="../js_CB/ctrl/PaddleCtrl.js"></script>
+
+
+  
+  <script src="../js_CB/model/Game.js"></script>
+  <script src="../js_CB/ctrl/GameCtrl.js"></script>
+  <script src="../js_CB/view/Vclasses.js"></script>
+
+
+
+
+  <title>Page Principale</title>
+</head>
+
+<body>
+  <div class="title">
+    <h1>Casse Brique !</h1>
+    <p id="myinfo">WEBG2 -48982-Ruzindana jules</p>
+
+  </div>
+
+  <div id="data">
+    <div id="lives">
+     
+    
+    </div>
+
+<span id="level"></span>
+
+<span id="score">  </span>
+
+  </div>
+
+  <main id="scene">
+
+    <div id="wall"></div>
+
+    <span id="start"></span>
+
+
+  </main>
+
+  <script>
+    /*let paddle = new Paddle(800);
+   let view = new View();
+   view.displayPaddle(paddle);
+   alert('Prêt à bouger la raquette à gauche ?');
+   paddle.moveTo(20);
+   view.displayPaddle(paddle);*/
+
+    /* let paddle = new Paddle(300);
+     let view = new View();
+     let paddleCtrl = new PaddleCtrl(paddle, view);
+ 
+     let ball = new Ball(new Position(400, 500), new Movement(3, -2));
+ 
+     view.displayBall(ball);
+     alert("Prêt à faire bouger la balle ?");
+     ball.move();
+     view.displayBall(ball);
+ 
+ let ballCtrl = new BallCtrl(ball,view);
+ ballCtrl.start(); // Démarre la balle
+ //ballCtrl.stop(); // Pour l’arrêter*/
+
+    let game = new Game();
+    let view = new View();
+    let gameCtrl = new GameCtrl(game, view);
+    gameCtrl.play();
+
+  </script>
+
+</body>
+
+</html>

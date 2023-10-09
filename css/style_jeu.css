@@ -1,0 +1,106 @@
+#submit,
+#next,
+.fin {
+	padding: 10px 20px;
+	background-color: dodgerblue;
+	border: 1px solid #ddd;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#next {
+	display: none;
+}
+
+#question {
+	width: 450px;
+	height: 50px;
+}
+
+#list_mots {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-transform: capitalize;
+}
+
+.word {
+	border: 2px solid black;
+}
+
+body {
+	position: relative;
+	height: 100vh;
+}
+footer {
+	font-family: 'Pacifico', cursive, sans-serif;
+	grid-template: 75px/1fr;
+	width: 100%;
+	bottom: 0;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Satisfy', cursive, sans-serif;
+	font-size: 2em;
+	background-color: #4169e1;
+	height: 250px;
+	color: blanchedalmond;
+	text-transform: uppercase;
+	align-items: center;
+	justify-content: space-evenly;
+
+	padding-bottom: 2px;
+}
+
+.member {
+	background-color: gray;
+}
+
+#picked_words {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 100px;
+	width: 100vw;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #ffefd5;
+	border: 5px solid black;
+}
+
+.chosen {
+	display: none;
+}
+
+#envoie footer {
+	display: grid;
+	margin-bottom: 7px;
+	grid-template: 50px/75px;
+}
+
+#displayMessage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100vw;
+
+	margin: 10px 10px;
+	background-color: darkgray;
+	border: 5px solid black;
+}
+
+.good {
+	color: green;
+	font-size: xx-large;
+}
+.bad {
+	color: red;
+}

@@ -1,0 +1,3 @@
+Monsieur ,
+la vue ne met pas à jour les briques détruites mais elles sont bien enlevées du model.
+Je n'ai pas réussi à résoudre ce problème.
